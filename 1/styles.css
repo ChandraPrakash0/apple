@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images/bac_texture.jpg);
+/*    font-family: cursive;*/
+}
+a{
+    text-decoration: none;
+}
+ul, li{
+    list-style: none;
+}
+/*top section*/
+#top{
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+}
+#brand{
+    width: 100%;
+    padding: 25px;
+/*    color: white;*/
+    font-size: 40px;
+}
+#face{
+    width: 1200px;
+    height: 480px;
+    background-color: #f5f5f5;
+    position: absolute;
+    box-shadow: 0px 10px 20px #666;
+}
+#hdr-nav{
+    width: 1100px;
+    height: 48px;
+    margin: auto;
+    background-image: url(images/menu.gif);
+    margin-top: 25px;
+}
+#hdr-nav li{
+    float: left;
+    height: 30px;
+    padding-top: 10px;
+}
+#hdr-nav a{
+    color: brown;
+    padding: 5px 20px 5px 20px;
+    display: block;
+    border-radius: 4px;
+}
+#hdr-nav a:hover{
+    background-color: #888;
+    color: white;
+}
+#bnr{
+    width: 1200px;
+    height: 400px;
+    background-image: url(images/img2.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#bnr-text{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+    line-height: 1.6;
+}
+#bnr-text small{
+    color: #666;
+}
+#bnr-text a{
+    color: #fff;
+    background-image: linear-gradient(#C93026,#852C22);
+    font-size: 20px;
+    width: 129px;
+    height: 37px;
+    display: block;
+    margin-top: 40px;
+}
+#bnr-text a:hover{
+    background-image: linear-gradient(#852C22,#852C22)
+}
+/*middle section*/
+#mid{
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    background-color: #ddd;
+}
+/*middle left section*/
+#on-mid-left{
+    width: 800px;
+    height: 800px;
+    float: left;
+}
+.mid-left{
+    width: 750px;
+    height: 400px;
+}
+.mid-left h1{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.mid-left img{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mid-left big{
+    margin-top: 20px;
+    line-height: 1.8;
+}
+.mid-left p{
+    margin-top: 20px;
+}
+.mid-left button{
+    margin-top: 20px;
+    padding: 10px 32px;
+    background-image: linear-gradient(#C93026,#852C22);
+    border-radius: 10px;
+}
+.mid-left a{
+    color: white;
+}
+.mid-left button:hover{
+    background-image: linear-gradient(#852C22,#852C22);
+}
+.mid-left:nth-child(1){
+    border-bottom: 3px dotted #888;
+}
+/*end of mid lefr*/
+
+/*mid right start*/
+#on-mid-right{
+    width: 400px;
+    height: 800px;
+    float: left;
+}
+#mid-right-links{
+    width: 350px;
+    height: 360px;
+    background-color: aliceblue;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+#mid-right-links li{
+    margin-left: 20px;
+    list-style-image: url(images/list.png);
+}
+#mid-right-links h2{
+    line-height: 2;
+}
+#mid-right-links a{
+    line-height: 2;
+    color: black;
+    text-decoration: underline;
+}
+#mid-right-bottom{
+    width: 350px;
+    height: 350px;
+    padding: 25px;
+}
+#mid-right-bottom a{
+    color: #777;
+    background: url(images/more.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 15px;
+}
+#mid-right-bottom a:hover{
+    color: orangered;
+    background: url(images/more_hover.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/*footer start*/
+#footer{
+    width: 1160px;
+    height: 200px;
+    padding: 20px;
+    margin: auto;
+    background-color: #fff;
+}
+.footer-bx{
+    width: 270px;
+    height: 150px;
+    float: left;
+    padding-left: 20px;
+    line-height: 1.8;
+}
+.footer-bx a{
+    color: #444;
+}
+.footer-bx a:hover{
+    text-decoration: underline #852C22;
+}
+.footer-bx li{
+    list-style-image: url(images/list_footer.gif);
+    list-style-position: inside;
+}
+#pin1{
+    background-image: url(images/pin1.gif);
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 45px;
+    height: 30px;
+}
+#pin2{
+    background-image: url(images/pin2.gif);
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 45px;
+    height: 30px;
+}
+#policy a{
+    color: #888;
+}
+#policy a:hover{
+    text-decoration: underline;
+}
